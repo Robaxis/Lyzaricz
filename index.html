@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html lang="cs">    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Oddíl Běžeckého lyžování TJ Žďár nad Sázavou</title>
+        <link rel="icon" type="image/jpg" href="#">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="queries.css">
+    </head>
+    <body>
+        <header>
+            <section id="NavBar">
+                <a href="index.html"><img id="Logo" src="img/LogoLyzariZr.jpg" alt="Logo stránky"></a>
+                <div id="NavBarGroup">
+                    <a href="aktuality" class="UnderlineAni"><h1><span>Aktuality</span></h1></a>
+                    <a href="fotogalerie" class="UnderlineAni"><h1><span>Fotogalerie</span></h1></a>
+                    <a href="zavody" class="UnderlineAni"><h1><span>Závody</span></h1></a>
+                    <a href="kontakty.html" class="UnderlineAni"><h1><span>Kontakty</span></h1></a>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section id="FirstLook">
+                <div id="WelcomingBlock">
+                    <h1>Oddíl Běžeckého lyžování TJ Žďár nad Sázavou</h1>
+                    <button id="LoginBtn"><a href="prihlaseni.html"><h1><span>Přihlášení</span></h1></a></button>
+                </div>
+                <div id="WelcomeLayer">
+                    <div id="WelcomeImage"></div>
+                </div>
+            </section>
+            <section id="AboutUsBlock">
+                <div id="AboutUs">
+                    <img src="img/ImageAllTeam.jpg" alt="Fotografie celého týmu">
+                    <div id="AboutUsText">   
+                        <h2>Vítejte</h2>
+                        <h1>O nás</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia non qui doloremque consectetur, ea alias laudantium, commodi quos praesentium deleniti quam sint ex iste libero aperiam, nam vel officiis dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia non qui doloremque consectetur, ea alias laudantium, commodi quos praesentium deleniti quam sint ex iste libero aperiam, nam vel officiis dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia non qui doloremque consectetur, ea alias laudantium, commodi quos praesentium deleniti quam sint ex iste libero aperiam, nam vel officiis dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia non qui doloremque consectetur, ea alias laudantium, commodi quos praesentium deleniti quam sint ex iste libero aperiam, nam vel officiis dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia non qui doloremque consectetur, ea alias laudantium, commodi quos praesentium deleniti quam sint ex iste libero aperiam, nam vel officiis dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia non qui doloremque consectetur, ea alias laudantium, commodi quos praesentium deleniti quam sint ex iste libero aperiam, nam vel officiis dignissimos.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section id="FooterWidget">
+                <div id="SocialMediaBlock">
+                    <ul>
+                        <li><a href="https://www.instagram.com/lyzarizr/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/Lyzarizr" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCujCMVZWGUEfs4s84d0QXBA" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div id="SponsorsBlock">
+                    <h1>Sponzoři</h1>
+                    <div id="Sponsors">
+                        <a href="https://www.autocont.cz" target="_blank"><img src="img/LogoAUTOCONT.png" alt="Logo firmy Autocont"></a>
+                        <a href="http://www.ampo.cz" target="_blank"><img src="img/LogoAMPO.jpg" alt="Logo firmy Ampo"></a>
+                        <a href="http://www.troma.cz" target="_blank"><img src="img/LogoTROMA.jpg" alt="Logo firmy Troma"></a>  
+                    </div>
+                </div>
+            </section>
+            <div id="CopyBlock">&copy; <span id="currentYear"></span> Oddíl Běžeckého lyžování TJ Žďár nad Sázavou. Všechna práva vyhrazena. Vytvořil Robert Vítek</div>
+        </footer>
+        <script src="https://kit.fontawesome.com/5c0cbd766a.js" crossorigin="anonymous"></script>
+        <script>
+            let currentDate = new Date();
+            let currentYear = currentDate.getFullYear();
+            let currentYearElement = document.getElementById("currentYear");
+            currentYearElement.textContent = currentYear;
+          </script>
+    </body>
+</html>
